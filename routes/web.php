@@ -12,6 +12,8 @@ Route::get('/registration', function () {
 })->name('registration');
 
 
+
 Route::get('/', function () {
-    return view('home');
+    return view('header');
 });
+

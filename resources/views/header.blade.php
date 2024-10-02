@@ -1,3 +1,4 @@
+
 <!-- resources/views/partials/header.blade.php -->
 <!-- First Row: Title and Icons -->
 <div class="container-fluid py-2">
@@ -76,6 +77,12 @@
             <a href="#" class="btn btn-outline-dark">Partner with Us</a>
         </div>
     </div>
-</nav>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</nav>    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <!-- Second Horizontal Line -->
 <hr class="m-0">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
